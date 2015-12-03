@@ -1,0 +1,6 @@
+verilog work "../if_df_buff.v"
+verilog work "pc.v"
+verilog work "muxA.v"
+verilog work "instructionMEM.v"
+verilog work "adder.v"
+verilog work "Datapath.v"

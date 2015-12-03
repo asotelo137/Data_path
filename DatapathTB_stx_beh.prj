@@ -1,0 +1,8 @@
+verilog isim_temp "../if_df_buff.v"
+verilog isim_temp "pc.v"
+verilog isim_temp "muxA.v"
+verilog isim_temp "instructionMEM.v"
+verilog isim_temp "adder.v"
+verilog isim_temp "Datapath.v"
+verilog isim_temp "DatapathTB.v"
+verilog isim_temp "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"
