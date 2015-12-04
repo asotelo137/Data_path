@@ -48,11 +48,11 @@ always@(*)
 				memory[16] <= 16'hf428; //slr r4,2
 				memory[18] <= 16'hf63B; //ror r6, 3
 				memory[20] <= 16'hf62B; //ror r6, 2
-				memory[22] <= 16'h6740; //beq r7, 4 ,*type c no opcode*
+				memory[22] <= 16'h6704; //beq r7, 4 ,*type c no opcode*
 				memory[24] <= 16'hfB10; // ADD R11, R1
-				memory[26] <= 16'h5750; //	BLT R7, 5
+				memory[26] <= 16'h5705; //	BLT R7, 5
 				memory[28] <= 16'hfB20; // // ADD r11, r2
-				memory[30] <= 16'h4720; // BGT R7, 2
+				memory[30] <= 16'h4702; // BGT R7, 2
 				memory[32] <= 16'hf110; // ADD R1, R1
 				memory[34] <= 16'hf110; //	 ADD R1, R1
 				memory[36] <= 16'hB890; // LW R8, 0(R9) //TYPE B

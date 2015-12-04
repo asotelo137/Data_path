@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Tue Dec 01 22:53:14 2015
+# Process ID: 2804
+# Log file: C:/Users/gonzalje/Desktop/CPE142/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/gonzalje/Desktop/CPE142/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/gonzalje/Desktop/CPE142/pa.fromNcd.tcl

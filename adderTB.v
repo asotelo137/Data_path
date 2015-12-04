@@ -26,33 +26,33 @@ module adderTB;
 
 	// Inputs
 	reg cin;
-	reg [15:0] ina;
-	reg [15:0] inb;
+	reg [15:0] a;
+	reg [15:0] b;
 
 	// Outputs
 	wire cout;
-	wire [15:0] result;
+	wire [15:0] r;
 
 	// Instantiate the Unit Under Test (UUT)
 	adder uut (
 		.cin(cin), 
-		.ina(ina), 
-		.inb(inb), 
+		.a(a), 
+		.b(b), 
 		.cout(cout), 
-		.result(result)
+		.r(r)
 	);
 
 	initial begin
 		// Initialize Inputs
 		cin = 0;
-		ina = 0;
-		inb = 0;
+		a = 0;
+		b = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
 		cin = 0;
-        ina = 100;
-		  inb = 20;
+        a = 100;
+		  b = 20;
 		  #50;
 		// Add stimulus here
 

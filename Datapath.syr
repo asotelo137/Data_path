@@ -1,16 +1,16 @@
-Release 14.4 - xst P.49d (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.34 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.34 secs
  
 --> Reading design: Datapath.prj
 
@@ -105,17 +105,17 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\gonzalje\Desktop\if_df_buff.v" into library work
-Parsing module <if_df_buffer>.
-Analyzing Verilog file "C:\Users\gonzalje\Desktop\CPE142\pc.v" into library work
+Analyzing Verilog file "C:\Users\School\Desktop\12.2.15.3.0\CPE142\pc.v" into library work
 Parsing module <pc>.
-Analyzing Verilog file "C:\Users\gonzalje\Desktop\CPE142\muxA.v" into library work
+Analyzing Verilog file "C:\Users\School\Desktop\12.2.15.3.0\CPE142\muxA.v" into library work
 Parsing module <muxA>.
-Analyzing Verilog file "C:\Users\gonzalje\Desktop\CPE142\instructionMEM.v" into library work
+Analyzing Verilog file "C:\Users\School\Desktop\12.2.15.3.0\CPE142\instructionMEM.v" into library work
 Parsing module <instructionMEM>.
-Analyzing Verilog file "C:\Users\gonzalje\Desktop\CPE142\adder.v" into library work
+Analyzing Verilog file "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v" into library work
+Parsing module <if_df_buffer>.
+Analyzing Verilog file "C:\Users\School\Desktop\12.2.15.3.0\CPE142\adder.v" into library work
 Parsing module <adder>.
-Analyzing Verilog file "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" into library work
+Analyzing Verilog file "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" into library work
 Parsing module <Datapath>.
 
 =========================================================================
@@ -125,69 +125,170 @@ Parsing module <Datapath>.
 Elaborating module <Datapath>.
 
 Elaborating module <pc>.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 32: Size mismatch in connection of port <rst>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 33: Size mismatch in connection of port <enable>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 34: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 35: Size mismatch in connection of port <address>. Formal port size is 16-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 34: Size mismatch in connection of port <enable>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <adder>.
-WARNING:HDLCompiler:413 - "C:\Users\gonzalje\Desktop\CPE142\adder.v" Line 33: Result of 16-bit expression is truncated to fit in 2-bit target.
-WARNING:HDLCompiler:1127 - "C:\Users\gonzalje\Desktop\CPE142\adder.v" Line 33: Assignment to result ignored, since the identifier is never used
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 40: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 41: Size mismatch in connection of port <a>. Formal port size is 16-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 42: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:1127 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 43: Assignment to cout ignored, since the identifier is never used
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 44: Size mismatch in connection of port <r>. Formal port size is 16-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 41: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 43: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 44: Assignment to cout ignored, since the identifier is never used
 
 Elaborating module <instructionMEM>.
-WARNING:HDLCompiler:634 - "C:\Users\gonzalje\Desktop\CPE142\instructionMEM.v" Line 29: Net <memory[56][15]> does not have a driver.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 53: Size mismatch in connection of port <instruction>. Formal port size is 16-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:1127 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 53: Assignment to instruction ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\instructionMEM.v" Line 29: Net <memory[56][15]> does not have a driver.
 
 Elaborating module <muxA>.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 58: Size mismatch in connection of port <a>. Formal port size is 16-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 59: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 60: Size mismatch in connection of port <c>. Formal port size is 16-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 61: Size mismatch in connection of port <select>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 60: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 62: Size mismatch in connection of port <select>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <if_df_buffer>.
-WARNING:HDLCompiler:91 - "C:\Users\gonzalje\Desktop\if_df_buff.v" Line 43: Signal <flush> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\gonzalje\Desktop\if_df_buff.v" Line 59: Signal <buffer> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\gonzalje\Desktop\if_df_buff.v" Line 60: Signal <buffer> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\gonzalje\Desktop\if_df_buff.v" Line 65: Signal <pc_buff_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\gonzalje\Desktop\if_df_buff.v" Line 66: Signal <inst_buff_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 70: Size mismatch in connection of port <flush>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 71: Size mismatch in connection of port <pc_buff_in>. Formal port size is 16-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 73: Size mismatch in connection of port <nop_in>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:1127 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 74: Assignment to pc_buffer_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 75: Assignment to bufferOutInstruction ignored, since the identifier is never used
-WARNING:HDLCompiler:634 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" Line 26: Net <inst_to_buff[15]> does not have a driver.
-WARNING:Xst:2972 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 30. All outputs of instance <pc> of block <pc> are unconnected in block <Datapath>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 39. All outputs of instance <pc_adder> of block <adder> are unconnected in block <Datapath>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 49. All outputs of instance <instructionMemory> of block <instructionMEM> are unconnected in block <Datapath>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 57. All outputs of instance <uut> of block <muxA> are unconnected in block <Datapath>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 67. All outputs of instance <bufferA> of block <if_df_buffer> are unconnected in block <Datapath>. Underlying logic will be removed.
+WARNING:HDLCompiler:91 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v" Line 43: Signal <flush> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v" Line 59: Signal <buffer> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v" Line 60: Signal <buffer> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v" Line 65: Signal <pc_buff_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v" Line 66: Signal <inst_buff_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:189 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" Line 74: Size mismatch in connection of port <nop_in>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Datapath>.
-    Related source file is "C:\Users\gonzalje\Desktop\CPE142\Datapath.v".
-WARNING:Xst:647 - Input <flush> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 39: Output port <cout> of the instance <pc_adder> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 49: Output port <instruction> of the instance <instructionMemory> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 67: Output port <pc_buff_out> of the instance <bufferA> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\gonzalje\Desktop\CPE142\Datapath.v" line 67: Output port <inst_buff_out> of the instance <bufferA> is unconnected or connected to loadless signal.
-WARNING:Xst:653 - Signal <inst_to_buff> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Related source file is "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v".
+INFO:Xst:3210 - "C:\Users\School\Desktop\12.2.15.3.0\CPE142\Datapath.v" line 40: Output port <cout> of the instance <pc_adder> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <Datapath> synthesized.
 
+Synthesizing Unit <pc>.
+    Related source file is "C:\Users\School\Desktop\12.2.15.3.0\CPE142\pc.v".
+    Found 16-bit register for signal <address>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <pc> synthesized.
+
+Synthesizing Unit <adder>.
+    Related source file is "C:\Users\School\Desktop\12.2.15.3.0\CPE142\adder.v".
+    Found 17-bit adder for signal <n0004> created at line 33.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <adder> synthesized.
+
+Synthesizing Unit <instructionMEM>.
+    Related source file is "C:\Users\School\Desktop\12.2.15.3.0\CPE142\instructionMEM.v".
+WARNING:Xst:647 - Input <pcIn<15:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <memory<56>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <memory<54>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <memory<52>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 64x16-bit Read Only RAM for signal <_n1020>
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <instruction<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 Latch(s).
+Unit <instructionMEM> synthesized.
+
+Synthesizing Unit <muxA>.
+    Related source file is "C:\Users\School\Desktop\12.2.15.3.0\CPE142\muxA.v".
+    Summary:
+	no macro.
+Unit <muxA> synthesized.
+
+Synthesizing Unit <if_df_buffer>.
+    Related source file is "C:\Users\School\Desktop\12.2.15.3.0\CPE142\if_df_buff.v".
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inst_buff_out<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<1><0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <buffer<0><0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pc_buff_out<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred  64 Latch(s).
+Unit <if_df_buffer> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# RAMs                                                 : 1
+ 64x16-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 1
+ 17-bit adder                                          : 1
+# Registers                                            : 1
+ 16-bit register                                       : 1
+# Latches                                              : 80
+ 1-bit latch                                           : 80
+
 =========================================================================
 
 =========================================================================
@@ -195,10 +296,31 @@ Found no macro
 =========================================================================
 
 
+Synthesizing (advanced) Unit <instructionMEM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n1020> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 16-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <pcIn>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <instructionMEM> synthesized (advanced).
+
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# RAMs                                                 : 1
+ 64x16-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 1
+ 17-bit adder                                          : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
 =========================================================================
 
 =========================================================================
@@ -206,6 +328,15 @@ Found no macro
 =========================================================================
 
 Optimizing unit <Datapath> ...
+
+Optimizing unit <pc> ...
+
+Optimizing unit <instructionMEM> ...
+
+Optimizing unit <if_df_buffer> ...
+WARNING:Xst:1710 - FF/Latch <pc/address_0> (without init value) has a constant value of 0 in block <Datapath>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bufferA/buffer<0>_0> (without init value) has a constant value of 0 in block <Datapath>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bufferA/pc_buff_out_0> (without init value) has a constant value of 0 in block <Datapath>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -216,7 +347,10 @@ Final Macro Processing ...
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+
 =========================================================================
 
 =========================================================================
@@ -238,6 +372,25 @@ Top Level Output File Name         : Datapath.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
+# BELS                             : 63
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 13
+#      LUT2                        : 1
+#      LUT5                        : 16
+#      MUXCY                       : 14
+#      VCC                         : 1
+#      XORCY                       : 15
+# FlipFlops/Latches                : 93
+#      FDC                         : 15
+#      LDC                         : 31
+#      LDC_1                       : 31
+#      LDE                         : 16
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 35
+#      IBUF                        : 3
+#      OBUF                        : 32
 
 Device utilization summary:
 ---------------------------
@@ -246,19 +399,23 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
+ Number of Slice Registers:              93  out of  126800     0%  
+ Number of Slice LUTs:                   32  out of  63400     0%  
+    Number used as Logic:                32  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      0
-   Number with an unused Flip Flop:       0  out of      0         
-   Number with an unused LUT:             0  out of      0         
-   Number of fully used LUT-FF pairs:     0  out of      0         
-   Number of unique control sets:         0
+ Number of LUT Flip Flop pairs used:     95
+   Number with an unused Flip Flop:       2  out of     95     2%  
+   Number with an unused LUT:            63  out of     95    66%  
+   Number of fully used LUT-FF pairs:    30  out of     95    31%  
+   Number of unique control sets:         3
 
 IO Utilization: 
  Number of IOs:                          35
- Number of bonded IOBs:                   0  out of    210     0%  
+ Number of bonded IOBs:                  35  out of    210    16%  
 
 Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
 
 ---------------------------
 Partition Resource Summary:
@@ -278,7 +435,12 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-No clock signals found in this design
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | IBUF+BUFG              | 77    |
+rst                                | IBUF+BUFG              | 16    |
+-----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -288,9 +450,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
+   Minimum period: 1.857ns (Maximum Frequency: 538.358MHz)
+   Minimum input arrival time before clock: 1.217ns
+   Maximum output required time after clock: 0.751ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -298,21 +460,133 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.857ns (frequency: 538.358MHz)
+  Total number of paths / destination ports: 271 / 61
+-------------------------------------------------------------------------
+Delay:               1.857ns (Levels of Logic = 16)
+  Source:            pc/address_1 (FF)
+  Destination:       pc/address_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: pc/address_1 to pc/address_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             17   0.361   0.354  pc/address_1 (pc/address_1)
+     INV:I->O              1   0.113   0.000  pc_adder/Madd_n0004_lut<1>_INV_0 (pc_adder/Madd_n0004_lut<1>)
+     MUXCY:S->O            1   0.353   0.000  pc_adder/Madd_n0004_cy<1> (pc_adder/Madd_n0004_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<2> (pc_adder/Madd_n0004_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<3> (pc_adder/Madd_n0004_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<4> (pc_adder/Madd_n0004_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<5> (pc_adder/Madd_n0004_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<6> (pc_adder/Madd_n0004_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<7> (pc_adder/Madd_n0004_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<8> (pc_adder/Madd_n0004_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<9> (pc_adder/Madd_n0004_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<10> (pc_adder/Madd_n0004_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<11> (pc_adder/Madd_n0004_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<12> (pc_adder/Madd_n0004_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  pc_adder/Madd_n0004_cy<13> (pc_adder/Madd_n0004_cy<13>)
+     MUXCY:CI->O           0   0.023   0.000  pc_adder/Madd_n0004_cy<14> (pc_adder/Madd_n0004_cy<14>)
+     XORCY:CI->O           2   0.370   0.000  pc_adder/Madd_n0004_xor<15> (adder_to_buff_and_muxA<15>)
+     FDC:D                     0.008          pc/address_15
+    ----------------------------------------
+    Total                      1.857ns (1.504ns logic, 0.354ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 139 / 77
+-------------------------------------------------------------------------
+Offset:              1.217ns (Levels of Logic = 2)
+  Source:            flush (PAD)
+  Destination:       bufferA/pc_buff_out_15 (LATCH)
+  Destination Clock: clk falling
+
+  Data Path: flush to bufferA/pc_buff_out_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.379  flush_IBUF (flush_IBUF)
+     LUT2:I0->O           62   0.097   0.391  bufferA/rst_nop_in_OR_33_o1 (bufferA/rst_nop_in_OR_33_o)
+     LDC:CLR                   0.349          bufferA/pc_buff_out_14
+    ----------------------------------------
+    Total                      1.217ns (0.447ns logic, 0.770ns route)
+                                       (36.7% logic, 63.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'rst'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              0.444ns (Levels of Logic = 1)
+  Source:            clk (PAD)
+  Destination:       instructionMemory/instruction_0 (LATCH)
+  Destination Clock: rst falling
+
+  Data Path: clk to instructionMemory/instruction_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   0.001   0.348  clk_IBUF (clk_IBUF)
+     LDE:GE                    0.095          instructionMemory/instruction_13
+    ----------------------------------------
+    Total                      0.444ns (0.096ns logic, 0.348ns route)
+                                       (21.6% logic, 78.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 31 / 31
+-------------------------------------------------------------------------
+Offset:              0.751ns (Levels of Logic = 1)
+  Source:            bufferA/inst_buff_out_15 (LATCH)
+  Destination:       instructionBuffOut<15> (PAD)
+  Source Clock:      clk falling
+
+  Data Path: bufferA/inst_buff_out_15 to instructionBuffOut<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.472   0.279  bufferA/inst_buff_out_15 (bufferA/inst_buff_out_15)
+     OBUF:I->O                 0.000          instructionBuffOut_15_OBUF (instructionBuffOut<15>)
+    ----------------------------------------
+    Total                      0.751ns (0.472ns logic, 0.279ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.857|         |    0.754|         |
+rst            |         |    0.751|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock rst
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.215|         |
+---------------+---------+---------+---------+---------+
+
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.05 secs
+Total REAL time to Xst completion: 31.00 secs
+Total CPU time to Xst completion: 31.49 secs
  
 --> 
 
-Total memory usage is 424268 kilobytes
+Total memory usage is 473024 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   36 (   0 filtered)
-Number of infos    :    4 (   0 filtered)
+Number of warnings :  100 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
 
