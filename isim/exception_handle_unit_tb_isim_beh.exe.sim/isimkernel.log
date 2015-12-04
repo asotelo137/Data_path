@@ -1,0 +1,10 @@
+Command line:
+   exception_handle_unit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64658
+
+Thu Dec 03 21:56:29 2015
+
+
+ Elaboration Time: 0.0156 sec

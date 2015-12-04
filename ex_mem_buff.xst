@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/soteloa/cpe142datpth/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/soteloa/cpe142datpth/xst"
+elaborate
+-ifn ex_mem_buff.prj
+-ifmt mixed

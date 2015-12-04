@@ -1,0 +1,42 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/soteloa/cpe142datpth/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/soteloa/cpe142datpth/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ex_mem_buff.v" in library work
+Module <ex_mem_buff> compiled
+WARNING:HDLCompilers:198 - "ex_mem_buff.v" line 93 Index 1 in word-select of vector reg array 'buffer' is out of range
+WARNING:HDLCompilers:198 - "ex_mem_buff.v" line 94 Index 1 in word-select of vector reg array 'buffer' is out of range
+WARNING:HDLCompilers:198 - "ex_mem_buff.v" line 95 Index 1 in word-select of vector reg array 'buffer' is out of range
+WARNING:HDLCompilers:198 - "ex_mem_buff.v" line 96 Index 1 in word-select of vector reg array 'buffer' is out of range
+WARNING:HDLCompilers:198 - "ex_mem_buff.v" line 97 Index 1 in word-select of vector reg array 'buffer' is out of range
+No errors in compilation
+Analysis of file <"ex_mem_buff.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+Total memory usage is 209664 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
